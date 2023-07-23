@@ -95,6 +95,7 @@ body {
 
 /* Intro */
 .intro {
+  overflow-x: hidden;
   position: absolute;
   left: 50%;
   top: 100%;
