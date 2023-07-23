@@ -210,10 +210,10 @@ sup {
 
 /* Benfits */
 .benfits {
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 
-.benfits h4 {
+.small-title {
   font-size: 18px;
   color: var(--Pink);
 }
@@ -245,7 +245,7 @@ sup {
 .benfit-card > .text {
   width: 50%;
 }
-.br:hover{
+.br:hover {
   border-right: 3px solid var(--blue);
   border-left: none;
 }
@@ -262,12 +262,51 @@ sup {
   height: 500px;
   background: linear-gradient(120deg, var(--Pink), var(--blue));
 }
-.vape{
+.vape {
   grid-column: 1;
   grid-row: 1;
 }
-.vape-shape  img{
+.vape-shape img {
   width: 60%;
   height: 100%;
   margin-bottom: 15px;
+}
+
+/* Categories */
+.categories {
+  margin-bottom: 200px;
+}
+
+.ctegory-text {
+  background: #231b26;
+  width: 100%;
+  height: 350px;
+  padding: 70px;
+}
+.ctegory-text:hover {
+  background: linear-gradient(140deg, var(--Pink), var(--blue));
+}
+.category-image {
+  width: 100%;
+  height: 350px;
+  background-color: #d8385a;
+}
+.category-image > img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Why us */
+.why-us {
+  margin-bottom: 200px;
+}
+.why-content {
+  width: 80%;
+}
+.feature{
+  margin-bottom: 35px;
+}
+.feature-name{
+  display: flex;
+  justify-content: space-between;
 }

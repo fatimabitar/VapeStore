@@ -14,10 +14,10 @@
     height: auto;
     background: none;
   }
-  .counter{
+  .counter {
     border-right: none;
     margin-bottom: 10px;
-    background-color: #231b26 ;
+    background-color: #231b26;
   }
   .vape-shape {
     display: none;
@@ -34,12 +34,18 @@
     font-size: 50px;
     text-align: center;
   }
-  
+
   .statistics > .container {
     height: auto;
   }
-  .counter{
+  .counter {
     border-right: none;
+  }
+  .categories h3 {
+    font-size: 30px !important;
+  }
+  .why-content {
+    width: 100%;
   }
 }
 @media (max-width: 500px) {
@@ -61,7 +67,8 @@
       margin: 0 auto 15px;
     }
   }
-  .who-content {
+  .who-content,
+  .why-content {
     width: 100%;
   }
 }
