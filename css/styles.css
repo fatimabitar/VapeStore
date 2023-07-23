@@ -154,6 +154,7 @@ sup {
 /* Who we ARE */
 .who-we-are {
   margin: 200px 0;
+  overflow-x: hidden;
 }
 .who-content {
   width: 80%;
@@ -211,6 +212,7 @@ sup {
 /* Benfits */
 .benfits {
   margin-bottom: 200px;
+  overflow: hidden;
 }
 
 .small-title {
@@ -275,6 +277,7 @@ sup {
 /* Categories */
 .categories {
   margin-bottom: 200px;
+  overflow-x: hidden;
 }
 
 .ctegory-text {
@@ -299,6 +302,7 @@ sup {
 /* Why us */
 .why-us {
   margin-bottom: 200px;
+  overflow-x: hidden;
 }
 .why-content {
   width: 80%;

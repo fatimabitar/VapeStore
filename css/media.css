@@ -71,4 +71,18 @@
   .why-content {
     width: 100%;
   }
+  .categories h3 {
+    font-size: 18px !important;
+  }
+  .categories .btn {
+    font-size: 18px !important;
+    padding: 10px 5px !important;
+  }
+  .ctegory-text,
+  .category-image {
+    height: 250px;
+  }
+  .ctegory-text {
+    padding: 30px;
+  }
 }
