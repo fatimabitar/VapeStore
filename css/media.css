@@ -1,0 +1,67 @@
+@media (max-width: 992px) {
+  .location,
+  .tel,
+  .opening {
+    flex: 1 !important;
+    text-align: center;
+  }
+  .intro h1 {
+    font-size: 70px;
+    text-align: center;
+  }
+
+  .statistics > .container {
+    height: auto;
+    background: none;
+  }
+  .counter{
+    border-right: none;
+    margin-bottom: 10px;
+    background-color: #231b26 ;
+  }
+  .vape-shape {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .location,
+  .tel,
+  .opening {
+    font-size: 10px;
+  }
+  .intro h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  .statistics > .container {
+    height: auto;
+  }
+  .counter{
+    border-right: none;
+  }
+}
+@media (max-width: 500px) {
+  .location,
+  .tel,
+  .opening {
+    font-size: 7px;
+  }
+  .intro h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .btns {
+    flex-direction: column;
+  }
+  .btns {
+    .m-btn {
+      width: 80%;
+      margin: 0 auto 15px;
+    }
+  }
+  .who-content {
+    width: 100%;
+  }
+}
