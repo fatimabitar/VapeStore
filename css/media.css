@@ -39,6 +39,9 @@
 }
 
 @media (max-width: 767px) {
+  .cta{
+    display: none;
+  }
   .location,
   .tel,
   .opening {
@@ -67,6 +70,21 @@
   }
   .partners img {
     margin-bottom: 20px;
+  }
+  footer .lead {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 10px;
+  }
+  .quick-links ul {
+    display: inline;
+  }
+  .quick-links {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 10px;
+  }
+  .follow-us {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px 0;
   }
 }
 @media (max-width: 500px) {
@@ -114,20 +132,5 @@
   }
   .headline {
     text-align: center;
-  }
-  footer .lead {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    padding-bottom: 10px;
-  }
-  .quick-links ul {
-    display: inline;
-  }
-  .quick-links {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    padding-bottom: 10px;
-  }
-  .follow-us {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 10px 0;
   }
 }

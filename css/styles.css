@@ -61,6 +61,8 @@ body {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   font-size: 14px;
+  padding-bottom: 10px !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 .topbar i {
   color: var(--Pink);
