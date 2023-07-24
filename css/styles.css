@@ -77,9 +77,8 @@ body {
 
 /* Navbar */
 .navbar {
-  background-color: rgba(255, 255, 255, 0.1) !important;
-  backdrop-filter: blur(10px);
   z-index: 100;
+  background-color: transparent !important;
 }
 .navbar-brand {
   width: 150px;
@@ -299,7 +298,32 @@ sup {
   width: 100%;
   height: 100%;
 }
-
+/* Products */
+.our-products {
+  margin-bottom: 100px;
+}
+.product-image {
+  background: #231b26;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.product-image > img {
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.product-image > img:hover{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
 /* Why us */
 .why-us {
   margin-bottom: 200px;
@@ -308,10 +332,113 @@ sup {
 .why-content {
   width: 80%;
 }
-.feature{
+.feature {
   margin-bottom: 35px;
 }
-.feature-name{
+.feature-name {
   display: flex;
   justify-content: space-between;
+}
+/* Our Services */
+.our-service {
+  margin-bottom: 200px;
+}
+.our-service-img > img {
+  width: 100%;
+}
+
+.qualities {
+  margin: -70px auto 0;
+  background: #231b26;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.qualities p {
+  display: inline;
+}
+.left i,
+.right i {
+  width: 25px;
+  height: 25px;
+  background: var(--blue);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+
+/* Testemonials */
+.testimonials {
+  margin-bottom: 200px;
+}
+hr {
+  width: 90%;
+  margin: 50px auto 0;
+}
+.rating-text {
+  font-size: 25px;
+  margin-right: 15px !important;
+}
+.rating-body {
+  width: 75%;
+}
+.rating-body .text {
+  color: #aaa;
+}
+
+.person-img {
+  width: 75px;
+  height: 75px;
+  margin-right: 10px;
+}
+.person-img > img {
+  width: 100%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.fa-quote-left {
+  font-size: 100px;
+  opacity: 0.1;
+  position: absolute;
+  left: 0;
+  top: -25%;
+}
+
+.partners {
+  margin-bottom: 200px;
+}
+.headline {
+  background: #231b26;
+  padding: 30px;
+}
+.headline h4 {
+  font-size: 40px;
+}
+.partners img {
+  filter: grayscale(80%);
+  -webkit-filter: grayscale(80%);
+}
+.partners img:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+}
+
+/* Footer */
+.quick-links ul {
+  list-style-type: none;
+}
+.follow-us ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
