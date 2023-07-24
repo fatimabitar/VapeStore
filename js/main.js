@@ -13,8 +13,7 @@ const counterAnim = (qSelector, start = 0, end, duration = 500) => {
  window.requestAnimationFrame(step);
 };
 //#endregion - end of - number counter animation
-
-document.addEventListener("mouseenter", () => {
+document.addEventListener("DOMContentLoaded", () => {
  counterAnim("#count1", 10, 300, 1000);
  counterAnim("#count2", 300, 820, 500);
  counterAnim("#count3", 20, 79, 2000);
